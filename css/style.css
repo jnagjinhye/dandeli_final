@@ -1,0 +1,1014 @@
+
+.p1{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 800; 
+	font-size: 12vw; 
+	letter-spacing: -0.1rem;
+	position: absolute; 
+	right: 100px; 
+	top: 50px
+}
+
+
+.p2{
+	font-family:'Rubik', sans-serif;
+	font-weight: 500; 
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	width: 440px; 
+	position: absolute; 
+	right: 100px;
+	top: 785px
+}
+
+.p3{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 800; 
+	font-size: 1.8rem;
+	position: absolute; 
+	right: 372px;
+	top: 745px
+
+}
+
+
+.p4{
+	font-family:'Rubik', sans-serif;
+	font-weight: 500; 
+	font-size: 1.4rem;
+	position: absolute; 
+	left: -45px;
+	top: 150px;
+	transform : rotate(-90deg)
+}
+
+
+.p5{
+	font-family:'Rubik', sans-serif;
+	font-weight: 500; 
+	font-size: 1.4rem;
+	position: absolute; 
+	left: 0px;
+	top: 470px;
+	transform : rotate(-90deg);
+}
+
+
+.p6{
+	font-family:'Rubik', sans-serif;
+	font-weight: 500; 
+	font-size: 1.4rem;
+	position: absolute; 
+	left: -45px;
+	top: 805px;
+	transform : rotate(-90deg)
+}
+
+
+
+
+
+
+
+.bluecircle{
+	border-radius: 50%; 
+	background-color: #8fb4ff; 
+	width: 95vw; 
+	height: 95vw; 
+	position: absolute; 
+	left: calc(50% - 16.5vw);
+	top: calc(50% - 19vw);
+}
+
+.mouse{
+	animation-name: mouse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+
+}
+
+	@keyframes mouse{
+		0%{transform : rotate( 0deg ); left: 520px}
+
+		50%{transform : rotate( -13deg ); left: 540px}
+
+		100%{transform : rotate( 0deg ); left: 520px}
+	}
+
+
+
+	.eyebrow{
+		animation-name: eyebrow;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+
+	}
+
+	@keyframes eyebrow{
+			0%{top: 380px; transform : rotate( 0deg )}
+
+			50%{top: 365px; transform : rotate( -3deg )}
+
+			100%{top: 380px; transform : rotate( 0deg )}
+		}
+
+
+
+	.hand{
+		animation-name: hand;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+
+	}
+
+	@keyframes hand{
+			0%{left: 745px ;top: 820px; transform : rotate( 0deg )}
+
+			50%{left: 755px ;top: 807px; transform : rotate( -2deg )}
+
+			100%{left: 745px ;top: 820px; transform : rotate( 0deg )}
+		}
+
+
+
+.dandeli{
+		animation-name: dandeli;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+
+	}
+
+	@keyframes dandeli{
+			0%{left: 845px ;top: 650px; transform : rotate( 0deg )}
+
+			10%{transform : rotate( 0deg )}
+
+			20%{transform : rotate( -5deg )}
+
+			30%{transform : rotate( 0deg )}
+
+			40%{transform : rotate( -5deg )}
+
+			50%{left: 855px ;top: 637px; transform : rotate( 0deg )}
+
+			75%{transform : rotate( -5deg )}
+
+			100%{left: 845px ;top: 650px; transform : rotate( 0deg )}
+		}
+
+
+
+
+
+
+
+
+
+		.s1{
+		animation-name: s1;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+		animation-play-state: paused;
+
+	}
+
+	/*#s1:hover{cursor: pointer;}*/
+
+	@keyframes s1{
+			0%{
+				right: 700px ;
+				top: 600px;
+				transform : rotate( 0deg );
+				opacity: 0%
+				}
+
+
+			25%{
+				opacity: 100%
+				}
+
+
+
+			100%{right: 400px ;
+				top: 600px;
+				transform : rotate( 700deg );
+				opacity: 0%
+			}
+		}
+
+
+		.s2{
+		animation-name: s2;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s2{
+			0%{
+				right: 680px ;
+				top: 550px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 380px ;
+				top: 550px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s3{
+		animation-name: s3;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s3{
+			0%{
+				right: 580px ;
+				top: 610px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 280px ;
+				top: 610px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s4{
+		animation-name: s4;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s4{
+			0%{
+				right: 565px ;
+				top: 520px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 265px ;
+				top: 520px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s5{
+		animation-name: s5;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s5{
+			0%{
+				right: 570px ;
+				top: 420px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 270px ;
+				top: 420px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+	.s6{
+		animation-name: s6;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s6{
+			0%{
+				right: 440px ;
+				top: 640px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 140px ;
+				top: 640px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s7{
+		animation-name: s7;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s7{
+			0%{
+				right: 440px ;
+				top: 500px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 140px ;
+				top: 500px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s8{
+		animation-name: s8;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s8{
+			0%{
+				right: 460px ;
+				top: 350px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 160px ;
+				top: 350px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s9{
+		animation-name: s9;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s9{
+			0%{
+				right: 330px ;
+				top: 680px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 30px ;
+				top: 680px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s10{
+		animation-name: s10;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s10{
+			0%{
+				right: 380px ;
+				top: 530px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 80px ;
+				top: 530px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s11{
+		animation-name: s11;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s11{
+			0%{
+				right: 350px ;
+				top: 400px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 50px ;
+				top: 400px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s12{
+		animation-name: s12;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s12{
+			0%{
+				right: 380px ;
+				top: 250px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: 80px ;
+				top: 250px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s13{
+		animation-name: s13;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s13{
+			0%{
+				right: 240px ;
+				top: 520px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -60px ;
+				top: 520px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s14{
+		animation-name: s14;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s14{
+			0%{
+				right: 200px ;
+				top: 410px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -100px ;
+				top: 410px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s15{
+		animation-name: s15;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s15{
+			0%{
+				right: 260px ;
+				top: 320px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -40px ;
+				top: 320px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s16{
+		animation-name: s16;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s16{
+			0%{
+				right: 300px ;
+				top: 240px;
+				transform : rotate( 0deg) ;
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: 0px ;
+				top: 240px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s17{
+		animation-name: s17;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s17{
+			0%{
+				right: 170px ;
+				top: 720px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -130px ;
+				top: 720px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s18{
+		animation-name: s18;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s18{
+			0%{
+				right: 230px ;
+				top: 640px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -70px ;
+				top: 640px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s19{
+		animation-name: s19;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s19{
+			0%{
+				right: 150px ;
+				top: 600px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -150px ;
+				top: 600px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s20{
+		animation-name: s20;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s20{
+			0%{
+				right: 110px ;
+				top: 550px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -190px ;
+				top: 550px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s21{
+		animation-name: s21;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s21{
+			0%{
+				right: 50px ;
+				top: 400px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -250px ;
+				top: 400px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s22{
+		animation-name: s22;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s22{
+			0%{
+				right: 140px ;
+				top: 350px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -160px ;
+				top: 350px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s23{
+		animation-name: s23;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s23{
+			0%{
+				right: 200px ;
+				top: 180px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -100px ;
+				top: 180px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s24{
+		animation-name: s24;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s24{
+			0%{
+				right: 50px ;
+				top: 680px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -250px ;
+				top: 680px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s25{
+		animation-name: s25;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s25{
+			0%{
+				right: -10px ;
+				top: 580px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -310px ;
+				top: 580px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+		.s26{
+		animation-name: s26;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s26{
+			0%{
+				right: 50px ;
+				top: 230px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -250px ;
+				top: 230px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+		.s27{
+		animation-name: s27;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s27{
+			0%{
+				right: 90px ;
+				top: 160px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+
+			25%{
+				opacity: 100%
+				}
+
+			100%{right: -210px ;
+				top: 160px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+		.s28{
+		animation-name: s28;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		position: absolute;
+
+	}
+
+	@keyframes s28{
+			0%{
+				right: 70px ;
+				top: 80px;
+				transform : rotate( 0deg );
+				opacity: 0%}
+
+			25%{
+				opacity: 100%
+				}
+
+
+			100%{right: -230px ;
+				top: 80px;
+				transform : rotate( 700deg );
+				opacity: 0%}
+		}
+
+
+
+
+
+
+
+
